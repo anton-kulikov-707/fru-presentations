@@ -1,0 +1,13 @@
+{
+    "name": "presentation",
+    "version": "1.0.0",
+    "scripts": {
+        "pdf": "node scripts/generate-pdf.js",
+        "presentation:new": "node scripts/presentation-manager.js create",
+        "presentation:update": "node scripts/presentation-manager.js update"
+    },
+    "dependencies": {
+        "puppeteer": "^24.35.0",
+        "thefuzz": "^0.0.1"
+    }
+}
